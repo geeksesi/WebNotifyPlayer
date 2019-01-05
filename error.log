@@ -1,0 +1,493 @@
+2018/10/09 11:12:54 [error] 21749#21749: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  A non well formed numeric value encountered in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 99
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP   6. mktime() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php:99" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:16:47 [error] 21749#21749: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 91
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Warning:  Illegal string offset 'minute' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 92
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:16:47 [error] 21749#21749: *8 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 101
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Warning:  Illegal string offset 'minute' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 101
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:17:29 [error] 21749#21749: *14 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 91
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Warning:  Illegal string offset 'minute' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 92
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:17:29 [error] 21749#21749: *14 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 101
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Warning:  Illegal string offset 'minute' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 101
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:20:31 [error] 21749#21749: *20 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 91
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Warning:  Illegal string offset 'minute' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 92
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:21:04 [error] 21749#21749: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 91
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Warning:  Illegal string offset 'minute' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 92
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:21:04 [error] 21749#21749: *25 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 98
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:22:15 [error] 21749#21749: *28 FastCGI sent in stderr: "PHP message: PHP Warning:  Illegal string offset 'hour' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 98
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:25:22 [error] 21749#21749: *40 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(http://api.aladhan.com/v1/calendar?latitude=34.639942&amp;longitude=50.875942&amp;method=7&amp;month=10&amp;year=2018&amp;timezonestring=Asia/Tehran): failed to open stream: HTTP request failed!  in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 78
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP   6. file_get_contents() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php:78
+PHP message: PHP Warning:  Invalid argument supplied for foreach() in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 81
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2
+2018/10/09 11:25:22 [error] 21749#21749: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: pray_array in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 90
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Notice:  Undefined variable: pray_array in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 93
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/Onlin" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:25:22 [error] 21749#21749: *40 FastCGI sent in stderr: "eAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:25:22 [error] 21749#21749: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: pray_array in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 94
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Notice:  Undefined variable: pray_array in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 95
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:25:22 [error] 21749#21749: *40 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: pray_array in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 96
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:30
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:31:31 [error] 21749#21749: *62 FastCGI sent in stderr: "PHP message: PHP Notice:  A non well formed numeric value encountered in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 114
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP   6. mktime() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php:114" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:34:36 [error] 21749#21749: *67 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: dhuhr__hour in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 122
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550
+PHP message: PHP Notice:  Undefined index: dhuhr__minute in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 122
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->pray_time() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 11:50:21 [error] 21749#21749: *75 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: dhuhr in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Calendar.php on line 140
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Adhan->get_first_adhan() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:550" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 12:52:45 [error] 21749#21749: *152 client intended to send too large body: 9056403 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:09 [error] 21749#21749: *167 client intended to send too large body: 9056419 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:10 [error] 21749#21749: *168 client intended to send too large body: 9056419 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:10 [error] 21749#21749: *169 client intended to send too large body: 9056419 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:10 [error] 21749#21749: *170 client intended to send too large body: 9056403 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:10 [error] 21749#21749: *171 client intended to send too large body: 9056419 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:10 [error] 21749#21749: *172 client intended to send too large body: 9056403 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:54:11 [error] 21749#21749: *173 client intended to send too large body: 9056395 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 12:55:07 [error] 21749#21749: *175 client intended to send too large body: 9056419 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 13:05:30 [error] 14652#14652: *1 client intended to send too large body: 9056411 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 13:05:36 [error] 14652#14652: *6 client intended to send too large body: 9056411 bytes, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 13:31:13 [error] 16975#16975: *27 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXvJBFL' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.java
+2018/10/09 13:33:50 [error] 16975#16975: *29 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpt1KULV' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.java
+2018/10/09 13:40:15 [error] 16975#16975: *31 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphB8GWh' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.java
+2018/10/09 13:40:21 [error] 16975#16975: *31 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpabJ9p2' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.java
+2018/10/09 13:42:56 [error] 16975#16975: *37 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpnWT4Hw' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.java
+2018/10/09 13:44:46 [error] 16975#16975: *39 FastCGI sent in stderr: "PHP message: PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0
+PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpiUZOPL' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1"
+2018/10/09 13:45:21 [error] 26414#26414: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Unknown: file created in the system's temporary directory in Unknown on line 0
+PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpGl1rTI' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1",
+2018/10/09 13:51:31 [error] 26414#26414: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/home/geeksesi/public_html/TMP/phpGLyUiu' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", r
+2018/10/09 14:04:57 [error] 26414#26414: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/home/geeksesi/public_html/TMP/php9uO0bU' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", r
+2018/10/09 14:05:33 [error] 26414#26414: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/home/geeksesi/public_html/TMP/phpYLu2jE' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_AaMin - Man Asheghesh Boodam.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", r
+2018/10/09 14:05:49 [error] 26414#26414: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_Pallett-Sad-Bar-128.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/home/geeksesi/public_html/TMP/phpxLtvPK' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_Pallett-Sad-Bar-128.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://o
+2018/10/09 14:07:06 [error] 26414#26414: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  move_uploaded_file(/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_Pallett-Sad-Bar-128.mp3): failed to open stream: Permission denied in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320
+PHP message: PHP Warning:  move_uploaded_file(): Unable to move '/home/geeksesi/public_html/TMP/phpEmIuPS' to '/home/geeksesi/public_html/OnlineAdhanPlayer/assets/music/geeksesi_Pallett-Sad-Bar-128.mp3' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 320
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:84
+PHP message: PHP   5. move_uploaded_file() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:320" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://
+2018/10/09 14:07:45 [crit] 32016#32016: *1 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 14:08:29 [crit] 32016#32016: *1 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 14:08:29 [crit] 32016#32016: *1 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 14:08:30 [crit] 32016#32016: *1 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 14:08:30 [crit] 32016#32016: *1 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 14:08:50 [crit] 32016#32016: *1 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:42 [crit] 873#873: *15 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:42 [crit] 873#873: *17 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:42 [crit] 873#873: *19 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:42 [crit] 873#873: *21 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:43 [crit] 873#873: *21 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:43 [crit] 873#873: *21 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 14:11:44 [crit] 873#873: *21 connect() to unix:/var/run/php/php7.2-fpm.sock failed (13: Permission denied) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 17:34:31 [error] 1233#1233: *133 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';' in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 269" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "GET /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/09 17:35:09 [error] 1233#1233: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553
+PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 17:35:09 [error] 1233#1233: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553
+PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 17:35:09 [error] 1233#1233: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553
+PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 17:35:09 [error] 1233#1233: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553
+PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 17:35:09 [error] 1233#1233: *133 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: row in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 271
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:45
+PHP message: PHP   5. Model->get_notify() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:553" while reading upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/09 17:52:49 [error] 1233#1233: *174 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property 'num_rows' of non-object in /home/geeksesi/public_html/OnlineAdhanPlayer/app/model/Model.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:23
+PHP message: PHP   4. Model->user_exist() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:36" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "GET /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/10/09 17:57:17 [error] 1233#1233: *258 FastCGI sent in stderr: "PHP message: INSERT INTO users (user_name, email, password) VALUES ('geeksesi', 'wowkhanmoghol66@yhaoo.com', '$2y$10$dRCY7X.q3yvvCXArOF4xZug7.IkcDqVzxVa9lSqEzukSADtYs/Moe') :::: ::: ::: ::: Table 'oap.users' doesn't exist" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /login?register HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/login"
+2018/10/09 17:57:19 [error] 1233#1233: *258 FastCGI sent in stderr: "PHP message: INSERT INTO users (user_name, email, password) VALUES ('geeksesi', 'wowkhanmoghol66@yhaoo.com', '$2y$10$n5lC47TLBrUnQX3nUDsyuOMFKeLWjxrrlTK8Cvbn4P3LxnAceGNqG') :::: ::: ::: ::: Table 'oap.users' doesn't exist" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /login?register HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/login"
+2018/10/09 18:33:26 [error] 1233#1233: *351 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: file_uploaded in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 313
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:24
+PHP message: PHP   4. Controller->upload_music() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:85" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/11 10:22:09 [error] 1220#1220: *9 FastCGI sent in stderr: "PHP message: PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Adhan.php on line 31
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:24
+PHP message: PHP   4. Controller->add_alarm() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:89
+PHP message: PHP   5. Adhan->config() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:541
+PHP message: PHP   6. date_default_timezone_set() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Libs/Adhan.php:31" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /user?submit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/user"
+2018/10/27 18:39:31 [error] 1178#1178: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: first_notify in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 594
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:24
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:62
+PHP message: PHP Notice:  Undefined variable: notifies in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 613
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:24
+PHP message: PHP   4. Controller->user_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:62" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/10/28 16:01:33 [error] 1128#1128: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: user_name in /home/geeksesi/public_html/OnlineAdhanPlayer/app/view/View.php on line 46
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:24
+PHP message: PHP   4. View->panel_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:130
+PHP message: PHP Notice:  Undefined index: user_name in /home/geeksesi/public_html/OnlineAdhanPlayer/app/view/View.php on line 47
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:0
+PHP message: PHP   2. Controller->__construct() /home/geeksesi/public_html/OnlineAdhanPlayer/index.php:31
+PHP message: PHP   3. Controller->controller() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:24
+PHP message: PHP   4. View->panel_page() /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php:130" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "GET /user HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
+2018/11/28 11:20:27 [error] 1164#1164: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: first_notify in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 594
+PHP message: PHP Notice:  Undefined variable: notifies in /home/geeksesi/public_html/OnlineAdhanPlayer/app/controller/Controller.php on line 613" while reading response header from upstream, client: 127.0.0.1, server: oap.javad, request: "POST /?user_name=geeksesi HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad", referrer: "http://oap.javad/?user_name=geeksesi"
+2018/12/02 08:54:10 [crit] 1173#1173: *6 connect() to unix:/var/run/php/php7.2-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 127.0.0.1, server: oap.javad, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "oap.javad"
